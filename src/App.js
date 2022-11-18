@@ -1,9 +1,13 @@
-import Spline from '@splinetool/react-spline';
-
-export default function App() {
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+function App() {
   return (
-    <div class="container mx-auto px-4">
-      <Spline scene="https://prod.spline.design/NlPdRmtReA7rKlQS/scene.splinecode" />
+    <div>
+      <Navbar />
+      <Home />
     </div>
+    
   );
 }
+
+export default App;
