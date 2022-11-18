@@ -39,7 +39,7 @@ code {
   user-select: none;
 }
 
-#menuToggle a
+#menuToggle h1
 {
   text-decoration: none;
   color: #232323;
@@ -47,7 +47,7 @@ code {
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
+#menuToggle h1:hover
 {
   color: tomato;
 }
